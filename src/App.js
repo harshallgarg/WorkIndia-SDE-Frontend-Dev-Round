@@ -15,8 +15,6 @@ import wallet1 from './Assets/img/wallet1.svg';
 import share1 from './Assets/img/share1.svg';
 
 
-
-
 function App() {
   return (
     <div className="App">
@@ -25,7 +23,7 @@ function App() {
       <div className="card">
         <div className="b1">
         <p className="font1" >S and S Technologies</p>
-        <img src={edit} alt="" /> 
+        <a><img src={edit} alt="" /></a>
         </div>
 
         <img className="line" src={line1} alt="" /> 
@@ -33,17 +31,17 @@ function App() {
         <div className="b2">
           <div className="bx">
           <img className="" src={phone} alt="" /> 
-          <p className="dist2 font2"> 12345678</p>
+          <a><p className="dist2 font2"> 12345678</p></a>
           </div>
           
           <div className="bx">
           <img className="" src={email} alt="" /> 
-          <p className="dist2 font2"> john.doe@workindia.in</p>
+          <a href=""><p className="dist2 font2"> john.doe@workindia.in</p></a>
           </div>
 
           <div className="bx">
           <img className="" src={briefcase} alt="" /> 
-          <p className="dist2 font2"> 27AAECE186G1ZR</p>
+          <a href=""><p className="dist2 font2"> 27AAECE186G1ZR</p></a>
           </div>
 
         </div>
@@ -63,22 +61,22 @@ function App() {
         <div className="box">
           <div className="box1">
           <img className="" src={wallet1} alt="" /> 
-            <p className="dist font3">My Transactions</p>
+            <a href=""><p className="dist font3">My Transactions</p></a>
           </div>
 
           <div className="box1">
           <img className="" src={share1} alt="" /> 
-            <p className="dist font3" >Share this app</p>
+            <a href=""><p className="dist font3" >Share this app</p></a>
           </div>
 
           <div className="box1">
           <img className="" src={star1} alt="" /> 
-            <p className="dist font3" >Rate Us</p>
+            <a href=""><p className="dist font3" >Rate Us</p></a>
           </div>
 
           <div className="box1">
           <img className="" src={ant1} alt="" /> 
-            <p className="dist font3" >Sign Out</p>
+            <a href=""><p className="dist font3" >Sign Out</p></a>
           </div>
         
         </div>
@@ -87,11 +85,11 @@ function App() {
       <div className="footer">
         <div className="footbox"> 
 
-        <img className="" src={home} alt="" /> 
-        <img className="" src={recharge} alt="" /> 
-        <img className="" src={postjob} alt="" /> 
-        <img className="" src={help} alt="" /> 
-        <img className="" src={profile} alt="" /> 
+        <a href=""><img className="" src={home} alt="" /></a>
+        <a href=""><img className="" src={recharge} alt="" /></a>
+        <a href=""><img className="" src={postjob} alt="" /></a>
+        <a href=""><img className="" src={help} alt="" /></a>
+        <a href=""><img className="" src={profile} alt="" /></a>
         </div>
       </div>
 

@@ -153,6 +153,14 @@ flex-direction: row;
   margin-left: 18.27px;
 }
 
+a{
+  text-decoration: none;
+}
+
+/* a:hover{
+  background-color: rgb(216, 212, 212);
+} */
+
 .footer{
   width: 411px;
 height: 61px; 
